@@ -5,10 +5,6 @@ RUN \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive \
     apt-get -y install \
-      bzip2 \
-      apt-utils \
-      debconf \
-      software-properties-common \
       openjdk-8-jre-headless \
       gosu \
       --no-install-recommends
